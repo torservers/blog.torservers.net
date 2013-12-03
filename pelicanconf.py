@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'torservers.net'
-SITENAME = u'blog.torservers.net'
-SITEURL = ''
+SITENAME = u'torservers.net'
+SITEURL = 'https://www.torservers.net/'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -21,8 +21,7 @@ ARTICLE_URL = '{date:%Y}{date:%m}{date:%d}/{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
 
 # Blogroll
-LINKS =  (('Torproject', 'https://torproject.org/'),
-          )
+#LINKS =  (('Torproject', 'https://torproject.org/'))
 
 # Social widget
 SOCIAL = (('Torservers', 'https://twitter.com/torservers'),
@@ -31,9 +30,11 @@ SOCIAL = (('Torservers', 'https://twitter.com/torservers'),
 
 DEFAULT_PAGINATION = False
 ARTICLE_EXCLUDES = ('theme', 'output',)
-THEME = "theme/tuxlite_tbs"
+THEME = "theme/torservers"
 
 TYPOGRIFY = True
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+MENUITEMS = [('home', 'https://www.torservers.net/'),('blog', 'https://blog.torservers.net/'),('wiki','http://www.torservers.net/wiki/')]
