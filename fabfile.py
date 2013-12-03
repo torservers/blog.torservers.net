@@ -7,7 +7,7 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'blog@blog.torservers.net:22'
+production = 'blog@blog.torservers.net:22001'
 dest_path = '/var/www'
 
 # Rackspace Cloud Files configuration settings
