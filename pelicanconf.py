@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'torservers.net'
-SITENAME = u'torservers.net'
-SITEURL = 'https://www.torservers.net/'
+SITENAME = u'torservers.net blog'
+SITEURL = 'https://blog.torservers.net/'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -13,6 +13,7 @@ DEFAULT_CATEGORY = 'torservers'
 
 # Feed generation is usually not desired when developing
 
+FEED_DOMAIN = SITEURL
 FEED_ALL_RSS = 'feed/all.rss.xml'
 CATEGORY_FEED_RSS = 'feed/%s.rss.xml'
 TRANSLATION_FEED_ATOM = None
@@ -37,4 +38,12 @@ TYPOGRIFY = True
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-MENUITEMS = [('home', 'https://www.torservers.net/'),('blog', 'https://blog.torservers.net/'),('wiki','http://www.torservers.net/wiki/')]
+MENUITEMS = [
+ ('home', 'https://www.torservers.net/'),
+ ('about', 'https://www.torservers.net/about.html'),
+ ('partners', 'https://www.torservers.net/partners.html'),
+ ('blog', 'https://blog.torservers.net/'),
+ ('wiki', 'https://www.torservers.net/wiki/'),
+ ('donate', ' https://www.torservers.net/donate.html'),
+ ('contact', 'https://www.torservers.net/contact.html')
+]
