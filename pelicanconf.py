@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'torservers.net'
 SITENAME = u'torservers.net blog'
-SITEURL = 'https://blog.torservers.net/'
+SITEURL = 'https://blog.torservers.net'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = u'en'
 DEFAULT_CATEGORY = 'torservers'
@@ -14,8 +14,11 @@ DEFAULT_CATEGORY = 'torservers'
 # Feed generation is usually not desired when developing
 
 FEED_DOMAIN = SITEURL
-FEED_ALL_RSS = 'feed/all.rss.xml'
-CATEGORY_FEED_RSS = 'feed/%s.rss.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+FEED_ATOM = 'feeds/atom.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 
 ARTICLE_URL = '{date:%Y}{date:%m}{date:%d}/{slug}.html'
