@@ -20,6 +20,7 @@ FEED_ATOM = 'feeds/atom.xml'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
+PATH = 'content'
 
 ARTICLE_URL = '{date:%Y}{date:%m}{date:%d}/{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
