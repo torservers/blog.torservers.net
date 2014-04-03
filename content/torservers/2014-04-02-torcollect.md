@@ -2,16 +2,16 @@ Title: Torcollect - A tool to collect statistics from servers that run Tor bridg
 Author: Daniel 
 Date: 2014-04-02
 
-For the last year i've been developing a tool that collects metrics from bridge servers. The specified application had to extract and collect the data from
+For the last half year i've been developing a tool that collects metrics from bridge servers. The specified application had to extract and collect the data from
 each single server that is registered in the system and generate static HTML reports from the received data.
 
-Torcollect is written in Python and uses paramiko to establish ssh connections to its designated servers. It also uses the module pygal to display the
+Torcollect is written in Python and uses paramiko to establish ssh-connections to it's designated servers. It also uses the module pygal to display the
 recorded data graphically.
 
 <https://github.com/torservers/torcollect>
 
 Starting development i first developed a database scheme capable of storing all data we
-need and even add a few additional features, for example the ability to stor, that
+need and even add a few additional features, for example the ability to store, that
 certain organizations were given specific bridges, so we can create reports that only concern
 the bridges of those organizations. I continued with gathering some static data, like a
 complete list of countries and their abbreviations and a collection of flag images for all
@@ -39,7 +39,7 @@ the daily reports (countries, bridges, pluggable transport protocols).
 Sparklines are a bit tricky because the graphics that are generated sum up to huge amounts
 of data. This resulted in roughly 7 MiB per HTTP call even when using gzip compression, which
 obviously kills responsiveness of the site. I'd love to have this feature included, because
-they simplify detecting sudden changes in the values significantly.
+they allow detecting sudden changes in only one glance.
 
 The latest feature I added was creating monthly reports from the collected data. Those monthly
 reports can be created for either the whole system or only the bridges of a single organization.
