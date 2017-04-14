@@ -25,6 +25,8 @@ PATH = 'content'
 ARTICLE_URL = '{date:%Y}{date:%m}{date:%d}/{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL
 
+STATIC_PATHS = ['images']
+
 # Blogroll
 #LINKS =  (('Torproject', 'https://torproject.org/'))
 
