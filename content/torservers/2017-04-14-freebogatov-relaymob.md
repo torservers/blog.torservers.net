@@ -2,7 +2,7 @@ Title: Tor exit node operator arrested in Russia - a solidarity Tor Relay Challe
 Author: xeniax, serrObengbi, 1up
 Date: 2017-04-14
 
-![Free Dmitry Bogatov](images/freebogatov.png)
+![Free Dmitry Bogatov](/images/freebogatov.png)
 
 **Run a Tor relay or exit node in solidarity with Dmitry Bogatov!**
 
