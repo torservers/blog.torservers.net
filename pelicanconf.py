@@ -36,7 +36,7 @@ SOCIAL = (('Torservers', 'https://twitter.com/torservers'),
          )
 
 DEFAULT_PAGINATION = False
-ARTICLE_EXCLUDES = ('theme', 'output',)
+ARTICLE_EXCLUDES = ['theme', 'output']
 THEME = "theme/torservers"
 
 TYPOGRIFY = True
